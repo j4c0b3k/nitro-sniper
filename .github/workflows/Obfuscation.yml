@@ -20,8 +20,9 @@ jobs:
           path: main_code
 
       - name: Obfuscate Javascript
+        working-directory: main_code
         run: |
-          npx javascript-obfuscator ./ --output ./ --options-preset high-obfuscation --dead-code-injection false
+          npx javascript-obfuscator ./ --output ./ --config obfuscator.json
 
       - name: Push to remote master branch
         working-directory: main_code
