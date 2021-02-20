@@ -110,11 +110,4 @@
 }
 ```
 
-## Tips
-- The less the latency to discord servers, the better; You could be competing with other snipers. <br>
-    - High bandwidth hosting would benefit the sniper.
-- There's a really high risk you might get terminated using this. <br>
-    - Do not mention you have this anywhere. <br>
-    - This is theoretically stealing money from discord.
-
- > If you like my project, please consider starring the repo :)
+[How to obtain your token](https://github.com/Tyrrrz/DiscordChatExporter/wiki/Obtaining-Token-and-Channel-IDs#how-to-get-a-user-token)
