@@ -110,6 +110,9 @@
 }
 ```
 
+#### How to obtain your token
+https://github.com/Tyrrrz/DiscordChatExporter/wiki/Obtaining-Token-and-Channel-IDs#how-to-get-a-user-token
+
 # Tips
 - Try to get a low latency to discord servers as there can be competition with other snipers.
 - This is technically a self-bot: mentioning this in a discord chat is enough to make your account reportable to Trust & Safety.
