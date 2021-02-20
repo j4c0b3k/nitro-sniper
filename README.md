@@ -109,3 +109,10 @@
    }
 }
 ```
+
+# Tips
+- Try to get a low latency to discord servers as there can be competition with other snipers.
+- This is technically a self-bot: mentioning this in a discord chat is enough to make your account reportable to Trust & Safety.
+- Running more than one instance or different snipers is an easy way to get your account deactivated.
+- If you get a lot of nitro in a short amount of time, turn the sniper off for a while.
+- Before using, consider the moral implications of stealing gifts from communities you have nothing to do with.
