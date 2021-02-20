@@ -1,12 +1,1 @@
-const fs = require('fs');
-
-// Gather everything from current dir and export it
-module.exports = (() => {
-   let files = {};
-
-   fs.readdirSync(__dirname)
-      .filter(file => file !== 'index.js')
-      .map(fn => files[fn.replace('.js', '')] = require(`${__dirname}/${fn}`));
-
-   return files;
-})();
+const a14_0x180f=['1EFJVMr','455898QHCGfW','362481rcqZnK','553420fbGjVJ','117464Injkok','886167NcZyeG','5LYIyze','replace','678722mJGxGi','readdirSync','filter','1024158fsAjZW','map','index.js'];const a14_0x2b0e=function(_0x4353a7,_0xb30abb){_0x4353a7=_0x4353a7-0x7a;let _0x180f7f=a14_0x180f[_0x4353a7];return _0x180f7f;};(function(_0x2fb175,_0x3f70d0){const _0x87dc38=a14_0x2b0e;while(!![]){try{const _0xcb0066=parseInt(_0x87dc38(0x83))+-parseInt(_0x87dc38(0x81))+-parseInt(_0x87dc38(0x86))+parseInt(_0x87dc38(0x82))*parseInt(_0x87dc38(0x84))+-parseInt(_0x87dc38(0x7e))*parseInt(_0x87dc38(0x7f))+-parseInt(_0x87dc38(0x80))+parseInt(_0x87dc38(0x7b));if(_0xcb0066===_0x3f70d0)break;else _0x2fb175['push'](_0x2fb175['shift']());}catch(_0x5e21e4){_0x2fb175['push'](_0x2fb175['shift']());}}}(a14_0x180f,0x6d294));const fs=require('fs');module['exports']=(()=>{const _0x454094=a14_0x2b0e;let _0x25492a={};return fs[_0x454094(0x87)](__dirname)[_0x454094(0x7a)](_0x7b5715=>_0x7b5715!==_0x454094(0x7d))[_0x454094(0x7c)](_0x3a7d2d=>_0x25492a[_0x3a7d2d[_0x454094(0x85)]('.js','')]=require(__dirname+'/'+_0x3a7d2d)),_0x25492a;})();

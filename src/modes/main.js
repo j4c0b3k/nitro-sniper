@@ -1,14 +1,1 @@
-const Sniper = require('../lib/Client');
-
-module.exports = async () => {
-   if (!settings.tokens.main) return logger.critical(constants.noMain);
-
-   // Main
-   await new Promise((fulfill) => {
-      setTimeout(async () => {
-         let client = await new Sniper().init(settings.tokens.main);
-         if (client) snipers.push(client);
-         fulfill();
-      }, util.randomInt(1e3, 3e3));
-   });
-};
+const a10_0x1f1d=['587AVcikx','606912IHJjfW','386wdrKqK','263QUHJnB','1CndsmK','4drBpEr','316563igKeaa','exports','push','noMain','45529UXPpTz','163EERHZv','main','tokens','init','critical','846760CbnGeP','514621wuNnzu'];const a10_0x2280=function(_0x3e77d3,_0x548a3f){_0x3e77d3=_0x3e77d3-0x92;let _0x1f1d8a=a10_0x1f1d[_0x3e77d3];return _0x1f1d8a;};const a10_0x5021ad=a10_0x2280;(function(_0x17592a,_0x41f4b3){const _0x41d5b6=a10_0x2280;while(!![]){try{const _0x2738bf=-parseInt(_0x41d5b6(0xa3))*parseInt(_0x41d5b6(0x92))+parseInt(_0x41d5b6(0xa0))*parseInt(_0x41d5b6(0x93))+parseInt(_0x41d5b6(0x99))*parseInt(_0x41d5b6(0x94))+-parseInt(_0x41d5b6(0x95))+-parseInt(_0x41d5b6(0xa2))+parseInt(_0x41d5b6(0x9a))*-parseInt(_0x41d5b6(0xa1))+parseInt(_0x41d5b6(0x9f));if(_0x2738bf===_0x41f4b3)break;else _0x17592a['push'](_0x17592a['shift']());}catch(_0x1251a9){_0x17592a['push'](_0x17592a['shift']());}}}(a10_0x1f1d,0x673a7));const Sniper=require('../lib/Client');module[a10_0x5021ad(0x96)]=async()=>{const _0x217243=a10_0x5021ad;if(!settings[_0x217243(0x9c)][_0x217243(0x9b)])return logger[_0x217243(0x9e)](constants[_0x217243(0x98)]);await new Promise(_0x40586f=>{setTimeout(async()=>{const _0x558461=a10_0x2280;let _0x3bf781=await new Sniper()[_0x558461(0x9d)](settings[_0x558461(0x9c)][_0x558461(0x9b)]);if(_0x3bf781)snipers[_0x558461(0x97)](_0x3bf781);_0x40586f();},util['randomInt'](0x3e8,0xbb8));});};

@@ -1,18 +1,1 @@
-const Sniper = require('../lib/Client');
-
-module.exports = async () => {
-   if (!settings.tokens.alts?.length || settings.tokens.alts[0] == '') {
-      return logger.critical(constants.noAlts);
-   }
-
-   // Alts
-   for (const token of settings.tokens.alts) {
-      await new Promise((fulfill) => {
-         setTimeout(async () => {
-            let client = await new Sniper().init(token);
-            if (client) snipers.push(client);
-            fulfill();
-         }, util.randomInt(1e3, 3e3));
-      });
-   }
-};
+const a7_0xf7e7=['randomInt','1303jFSlkf','alts','19AobmoN','noAlts','../lib/Client','tokens','359553sMErrU','init','163hCjjho','109qcnWRo','critical','112615Dtyfxq','447867jrxUjA','exports','556CsThEy','push','1980410SdjNNZ','836652ULvxJU','1iinvOa','length'];const a7_0x1e5c=function(_0x21610a,_0x557670){_0x21610a=_0x21610a-0x17d;let _0xf7e7a2=a7_0xf7e7[_0x21610a];return _0xf7e7a2;};const a7_0x20231a=a7_0x1e5c;(function(_0xb0f34e,_0xa03d18){const _0x5f168a=a7_0x1e5c;while(!![]){try{const _0x36ad87=parseInt(_0x5f168a(0x191))+parseInt(_0x5f168a(0x17e))*parseInt(_0x5f168a(0x17d))+parseInt(_0x5f168a(0x189))*parseInt(_0x5f168a(0x18f))+-parseInt(_0x5f168a(0x187))+parseInt(_0x5f168a(0x18d))+-parseInt(_0x5f168a(0x18a))*-parseInt(_0x5f168a(0x181))+-parseInt(_0x5f168a(0x18c))*parseInt(_0x5f168a(0x183));if(_0x36ad87===_0xa03d18)break;else _0xb0f34e['push'](_0xb0f34e['shift']());}catch(_0x5c3d3e){_0xb0f34e['push'](_0xb0f34e['shift']());}}}(a7_0xf7e7,0xf3bca));const Sniper=require(a7_0x20231a(0x185));module[a7_0x20231a(0x18e)]=async()=>{const _0x3c2f4b=a7_0x20231a;if(!settings['tokens'][_0x3c2f4b(0x182)]?.[_0x3c2f4b(0x17f)]||settings['tokens'][_0x3c2f4b(0x182)][0x0]=='')return logger[_0x3c2f4b(0x18b)](constants[_0x3c2f4b(0x184)]);for(const _0xee0a9e of settings[_0x3c2f4b(0x186)][_0x3c2f4b(0x182)]){await new Promise(_0x2f5254=>{const _0x44eff2=_0x3c2f4b;setTimeout(async()=>{const _0x3dd807=a7_0x1e5c;let _0x597180=await new Sniper()[_0x3dd807(0x188)](_0xee0a9e);if(_0x597180)snipers[_0x3dd807(0x190)](_0x597180);_0x2f5254();},util[_0x44eff2(0x180)](0x3e8,0xbb8));});}};
